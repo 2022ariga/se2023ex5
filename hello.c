@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("hello world \n");
-  return (0);
+  char str[] = "12345";
+
+  printf("%s\n", str);
 }
